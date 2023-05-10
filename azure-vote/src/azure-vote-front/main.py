@@ -40,7 +40,7 @@ try:
         r = redis.Redis(redis_server)
     r.ping()
 
-    print("Redis Server running well there")
+    print("Redis Server running well there and here")
 except redis.ConnectionError:
     exit('Failed to connect to Redis, terminating.')
 
